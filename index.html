@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="icon" href="img/list.png">
+    <link rel="stylesheet" href="styletable.css">
+
+    <script src="javascript/addlist.js" defer></script>
+</head>
+<body>
+    
+    <main>
+        <ul>
+            <h1><li id="listname">lista</li></h1>
+        </ul>
+
+        <table id="tabelaitens">
+
+            <tr class="linha">
+                <td class="order">Ordem</td>
+                <td class="item">Item</td>
+                <td class="quantity">Quantidade</td>
+            </tr>
+
+            <tr class="linharegister">
+                <form>
+                    <td id="order-register">PH</td>
+                    <td class="item-register"><input id="itemin" type="text" name="itemregister" autocomplete="off"></td>
+                    <td class="quantity-register"><input id="qttin" type="number" name="itemregister" autocomplete="off" min="1"></td>
+                </form>
+            </tr>
+
+        </table>
+    </main>
+
+</body>
+</html>
