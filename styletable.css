@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table, tr, td{
+
+    border-collapse: collapse;
+
+}
+
+#tabelaitens{
+
+    background-color: blanchedalmond;
+    width: 1000px;
+    margin: auto;
+
+}
+
+.linha, .linharegister{
+
+    border-collapse: collapse;
+
+}
+
+.order{
+
+    width: 5%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.item{
+
+    width: 85%;
+    padding: 10px 5px;
+
+}
+
+.quantity{
+
+    width: 10%;
+    padding: 10px 5px;
+
+}
+
+#order-register{
+
+    text-align: center;
+
+}
+
+#order-register, .item-register, .quantity-register{
+    padding: 5px
+}
+
+.item-register > input, .item-register>input:focus, .quantity-register>input, .quantity-register>input:focus{
+
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: solid rgb(196, 183, 164);
+
+}
+
+.quantity-register > input{
+
+    text-align: center;
+
+}
